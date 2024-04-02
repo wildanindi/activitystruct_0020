@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct DetailAlamat {
+struct DetailAlamat { 
     string desa;
     string kota;
 };
@@ -13,8 +13,8 @@ struct Mahasiswa {
     int umur;
 };
 
-int main(){
-    Mahasiswa mhs[3];
+int main(){ // berisi prosedur dari struct yang di gabungkan dengan array agar bisa menyimpan banyak data sesuai yang telah di tentukan
+    Mahasiswa mhs[3]; 
     for (int i=0;i<3;i++){
         cout << "Data ke-"<<(i+1)<<":"<< endl;
         cout << "Nomor Mahasiswa : ";
