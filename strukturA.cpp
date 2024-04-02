@@ -13,7 +13,7 @@ struct Mahasiswa {
     int umur;
 };
 
-int main(){ // berisi prosedur dari struct yang di gabungkan dengan array agar bisa menyimpan banyak data sesuai yang telah di tentukan
+int main(){ // berisi prosedur dari struct yang di gabungkan dengan array agar bisa menyimpan banyak data sesuai yang telah di tentukan.
     Mahasiswa mhs[3]; 
     for (int i=0;i<3;i++){
         cout << "Data ke-"<<(i+1)<<":"<< endl;
@@ -25,7 +25,7 @@ int main(){ // berisi prosedur dari struct yang di gabungkan dengan array agar b
         cout << "Alamat Mahasiswa : " << endl;
         cout << "\t Nama Desa : ";
         cin >> mhs[i].alamat.desa;
-        cout << "\t Nama Kota : ";
+        cout << "\t Nama Kota : "; // penggunakan \t agar barisan dari data tersebut memiliki jarak sekitar 1 "tab".
         cin >> mhs[i].alamat.kota;
         cout << "Umur Mahasiswa : ";
         cin >> mhs[i].umur;
